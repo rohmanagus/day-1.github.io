@@ -1,0 +1,36 @@
+#PSEUDOCODE
+
+1. Newton Second Law
+======================
+WRITE AND SAVE "MASSA"
+WRITE AND SAVE "ACCELERATION"
+RESULTAN STYLE "MASSA" times "ACCELERATION"
+SAVE THE PREVIOUS CALCULATION RESULTS
+SHOW CALCULATION RESULTS
+
+2. TAHUN KABISAT
+======================
+INPUT TAHUN
+IF YEAR MODULS 4 AND NOT EQUAL TO 100
+OR IF YEAR MODULS 4 AND MODULS 100 AND MODULS 400
+DO"KABISAT"
+
+3.LAUNDRY DAY
+======================
+INPUT "clothes" with 1
+WHILE "clothes" < 21
+	ADD "clothes" by 1
+
+DISPLAY "clothes full"
+
+
+4. PERIKSA KUKU
+======================
+ADD "STD" with 40
+WHILE "STD"
+IF "STD" LONG NAILS
+	DO"punishment"
+ELSE 
+	DO"PRAISE"
+
+	  
