@@ -1,15 +1,9 @@
-function hitungJumlahKata(kalimat) {
-    // you can only write your code here!
-    var x = 1;
-    for (var i = 0; i < kalimat.length; i++) { // variabel i sama dengan NOL, maka i kurang dari panjang kalimat, i di tambah 1
-        if (kalimat[i] === " ") { //jika kalimat samadengan samadengan " ",
-            x++; //maka nilai x tambah 1
-        }
-    }
-    return x; //kambalikan nilai x
-
-
-
+function hitungJumlahKata(kalimat){
+    var pecahKata = kalimat.split(" ");
+    console.log(pecahKata);
+    
+    var jumlahKalimat = pecahKata.length;
+    return jumlahKalimat;
 }
 
 // TEST CASES
